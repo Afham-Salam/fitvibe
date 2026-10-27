@@ -1,0 +1,11 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+Pillow==11.0.0
+numpy==2.2.1
+scikit-learn==1.6.0
+open_clip_torch==2.30.0
+torch==2.5.1
+torchvision==0.20.1
+# Optional background removal: pip install rembg[cpu]
+# Optional garment detector: pip install ultralytics and set YOLO_WEIGHTS to a licensed fashion model.
